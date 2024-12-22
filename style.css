@@ -1,0 +1,283 @@
+html, body {
+    margin: 0; 
+    height: 100%; 
+    min-width: 780px;
+    overflow: hidden;
+    background-color: #000000;
+    color: #ffffff;
+    stroke: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+}
+
+.filter_title {
+    margin-left: 25px;
+}
+
+a:link {
+    color: inherit;
+}
+  
+a:visited {
+    color: inherit;
+}
+  
+a:hover {
+    color: #ffffff;
+  }
+  
+a:active {
+    color: #ffffff;
+  }
+
+#col1 {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    width: 30%;
+    vertical-align: top;
+}
+
+.c_choice {
+    width: fit-content; 
+}
+
+.c_choice_img {
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    height: 30px;
+    width: 30px;
+}
+
+.s_choice_img {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    height: 35px;
+    width: 30px;
+    fill: #FFFFFF;
+}
+
+.c_choice_name {
+    display: inline-block;
+    position: relative;
+    left: 55px;
+    vertical-align: top;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    /*margin-left: 5px;
+    top: 0;
+    left: 0;
+	margin: 20px auto;
+	border: 1px solid #aaa;
+	background: #dcb;*/
+}
+
+#person_choice {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-left: 10px;
+}
+
+.p_choice {
+	display: inline-block;
+    position: relative;
+    margin: 5px;
+    /*top: 0;
+    left: 0;
+	margin: 20px auto;
+	border: 1px solid #aaa;
+	background: #dcb;*/
+}
+
+#person_choice_extra {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    overflow-y: scroll;
+}
+
+.p_choice_extra {
+	display: inline-block;
+    position: relative;
+    margin: 5px;
+}
+
+.choice_name_extra {
+	width: 60px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+}
+
+.choice_name {
+	width: 60px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+}
+
+.choice_img {
+    height: 50px;
+    width: 50px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+/*
+#tooltip {
+    display: inline-block;
+    position: absolute;
+    top: 380px;
+    left: 5px;
+	padding: 20px;
+	border: 1px solid #aaa;
+	background: rgba(221, 204, 187, 0.75);
+    opacity: 0;
+}
+*/
+
+.tooltip {
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+	background: rgba(221, 204, 187, 0.9);
+}
+
+#tooltip_left {
+    left: -30%;
+}
+
+#tooltip_right {
+    right: -30%;
+}
+
+.tooltip_content {
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #000;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.closebtn {
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+td {
+    border:1px solid #FFFFFF;
+}
+
+th {
+    background: #FFFFFF;
+}
+
+#all_map {
+    display: inline-block;
+    position: relative;
+    width: 68%;
+    height: 100%;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+#singers_map {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 200%;
+    vertical-align: top;
+    overflow: clip;
+}
+
+.bg {
+	display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+	border: 1px solid #aaa;
+	background: #dcb;
+}
+
+.land {
+	fill: #faeada;
+	stroke: #654;
+	stroke-width: .1px;
+}
+
+.marker {
+	fill: #000000;
+	stroke: #000000;
+    stroke-width: 1.2;
+	fill-opacity: 0;
+    &:hover {
+		fill: #000000;
+		fill-opacity: .5;
+		cursor: pointer;
+	}
+}
+
+.marker-active {
+	fill: #ba071c;
+	stroke: #000000;
+    stroke-width: 1.2;
+	fill-opacity: .7;
+    &:hover {
+		fill: #ba071c;
+		fill-opacity: .9;
+		cursor: pointer;
+	}
+}
+
+.marker-invisible {
+	fill: #000000;
+	stroke: #000000;
+    stroke-width: 1.2;
+	fill-opacity: 0;
+}
+
+.stop {
+    stroke-width: .6;
+	fill-opacity: .5;
+    &:hover {
+		fill-opacity: 1;
+		cursor: pointer;
+	}
+}
+
+.stop-active {
+    stroke-width: 1.5;
+	fill-opacity: .5;
+    &:hover {
+		fill-opacity: 1;
+		cursor: pointer;
+	}
+}
+
+.stop-invisible {
+    stroke-width: .6;
+	fill-opacity: .5;
+}

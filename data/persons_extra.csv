@@ -1,0 +1,10 @@
+﻿person_id;name;name_variants;century;profession;profession_2;school;description;sources;img_filename
+pe1;Александр Мезенец;Александр Мезенец (Стремоухов);Нач. XVII - после 1667;Древнерусский музыкальный теоретик;Справщик книг богослужебного знаменного пения, один из авторов, составитель и редактор трактата «Извещение о согласнейших пометах», автор виршей, книгописец;;;"Парфентьев Н. П. Александр Мезенец // Православная энциклопедия. – М., 2000. – Т. I. – С. 528-530. URL: <a target=""_blank"" href=""https://www.pravenc.ru/text/64380.html"">https://www.pravenc.ru/text/64380.html</a>";mezenez
+pe2;Александр Печерский;;Нач. XVII века - нач. 70-х гг. XVII в;Справщик Московского печатного двора;;;;"Парфентьев Н. П. Александр Печерский // Православная энциклопедия. — М., 2000. — Т. I . — С. 533-534. URL:  <a target=""_blank"" href=""https://www.pravenc.ru/text/64386.html"">https://www.pravenc.ru/text/64386.html</a>";pechersky
+pe3;Семен Баскаков;;XVII;Дидаскал;Древнерусский дидаскал, распевщик;;;"Парфентьев Н. П. Баскаков Семен // Православная энциклопедия. — М., 2002. — Т. IV . — С. 374. URL: <a target=""_blank"" href=""https://www.pravenc.ru/text/77652.html"">https://www.pravenc.ru/text/77652.html</a> ";baskakov
+pe4;Григорий Нос;;XVII;Мастеропевец;;;;"Парфентьев Н. П. Григорий Нос // Православная энциклопедия. – М., 2006. – Т. XII. – С. 727-728. URL: <a target=""_blank"" href=""https://www.pravenc.ru/text/166857.html"">https://www.pravenc.ru/text/166857.html</a>";grigory_nos
+pe5;Иван Акимович Шайдуров;;;;;;;;shaidurov
+pe6;Иван Слободской;;;;;;;;slobodskoy
+pe7;Мелетий Грек;;Первая половина XVII века - 15.02.1686;;Иеродиак, певчий, учитель пения, церковный дипломат;;;"Фонкич Б. Л., Парфентьев Н. П. Мелетий Грек // Православная энциклопедия. – М., 2016 – Т. XLIV – с. 585-587. URL: <a target=""_blank"" href=""https://www.pravenc.ru/text/2562870.html"">https://www.pravenc.ru/text/2562870.html</a>";meletiy_grek
+pe8;Патриаршие (митрополичьи) певчие дьяки;;;;;;;;patr_dyaki
+pe9;Тихон Макарьевский;;;;;;;;makarievsky
