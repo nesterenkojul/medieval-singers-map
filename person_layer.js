@@ -47,7 +47,7 @@ export function add_choices(data, data_extra) {
             .attr("id", d => "btn_" + d.person_id);
         d3.select("#btn_" + per.person_id)
             .append("img")
-            .attr("src", "/imgs/" + per.img_filename + ".png")
+            .attr("src", "./imgs/" + per.img_filename + ".png")
             .attr("class", "choice_img")
             .attr("id", d => "img_" + d.person_id);
         d3.select("#btn_" + per.person_id)
