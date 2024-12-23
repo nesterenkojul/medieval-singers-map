@@ -1,4 +1,4 @@
-import * as icon from "/icons.js";
+import * as icon from "./icons.js";
 
 
 export function add_layer(svg, projection, data) {
