@@ -1,5 +1,5 @@
-import * as church from "/church_layer.js";
-import * as person from "/person_layer.js";
+import * as church from "./church_layer.js";
+import * as person from "./person_layer.js";
 
 
 function join(trans_d, per_d){
